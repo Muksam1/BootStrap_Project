@@ -1,0 +1,98 @@
+/* Hero section css */
+#topbar {
+    background-color: #082A4A;
+}
+#topbar a{
+    font-size: 13px;
+    line-height: 21px;
+}
+.active {
+    font-weight:600;
+}
+h1 {
+    text-transform: uppercase;
+}
+
+#hero {
+    background-image: url(./Hero/1649333348291984962.jpg.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 235px;
+    padding-bottom: 235px;
+    background-color: #030101;
+}
+
+/* Third section ko css */
+
+#third {
+    background-color: #EEF2F6;
+}
+
+#feature1 {
+    background: linear-gradient(to right, #5A154A, #922278);
+}
+
+#feature2 {
+    background: linear-gradient(to right, #A13172, #C33E8B);
+}
+
+#feature3 {
+    background: linear-gradient(to right, #E73056, #E95038);
+}
+
+#feature4 {
+    background: linear-gradient(to right, #F28A19, #F9B107);
+}
+
+#feature5 {
+    background: linear-gradient(to right, #77AC43, #94CA5F);
+}
+
+#feature6 {
+    background: linear-gradient(to right, #235683, #048FA3);
+}
+
+#feature7 {
+    background: linear-gradient(to right, #48B2BC, #95D0D3);
+}
+
+#feature8 {
+    background: linear-gradient(to right, #279A96, #2EAEA9);
+}
+
+/* Fourth section css */
+
+input {
+    border: 1px solid #ACBAC8;
+}
+
+.message-btn {
+    background-color: #48BEF1;
+    border: 2px solid #2E82D0;
+    color: #FFFFFF;
+    border-radius: 4px;
+    padding: 7px 18px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* Footer ko css */
+footer {
+    background-color: #082A4A;
+}
+
+footer h2 {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+footer h2:before{
+    content: "";
+    width: 100px;
+    height: 2px;
+    background: #2E82D0;
+    position: absolute;
+    bottom:-16px;
+    right: 270px;
+
+}
